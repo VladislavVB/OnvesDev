@@ -1,4 +1,12 @@
 h1 {
-  background-color: #dfd;
+  color: #fdd;
+}
+
+.menu {
+  background-color: #dfdf;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 /*# sourceMappingURL=style.css.map */

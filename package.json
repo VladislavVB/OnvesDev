@@ -18,5 +18,8 @@
   "homepage": "https://github.com/VladislavVB/OnvesDev#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
