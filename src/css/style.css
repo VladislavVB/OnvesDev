@@ -1,12 +1,54 @@
-h1 {
-  color: #fdd;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+*:focus {
+  display: none;
+}
+
+.header {
+  height: 100vh;
+  background-color: #949494;
+}
+
+.header-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-slide {
+  width: 100%;
+  height: 100%;
 }
 
 .menu {
-  background-color: #dfdf;
+  background-color: #949494;
+  z-index: 1;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.menu-brand {
+  max-width: 200px;
+}
+
+.menu-brand img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.nav-link {
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
